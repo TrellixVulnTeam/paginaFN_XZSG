@@ -1,0 +1,8 @@
+$mapaRedSocial: (facebok:blue , whatsApp:green, instagram:pink );
+
+@each $red, $color in $mapaRedSocial  {
+    .#{$red}{
+        color:$color;
+    }
+    
+}
